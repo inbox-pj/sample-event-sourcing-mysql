@@ -1,6 +1,6 @@
 spring:
   application:
-    name: sample-event-sourcing
+    name: sample-event-sourcing-mysql
   profiles:
     active: default
 
