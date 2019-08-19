@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: sample-event-sourcing
+  profiles:
+    active: default
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: always
